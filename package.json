@@ -10,7 +10,7 @@
         "test": "npm run test:jasmine",
         "test:jasmine": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
         "test:mocha": "mocha test/**/*.js",
-        "coverage": "nyc npm run test"
+        "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json"
     },
     "dependencies": {
         "istanbul": "^0.4.5",
