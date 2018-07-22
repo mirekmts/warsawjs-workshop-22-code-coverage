@@ -3,7 +3,7 @@ function sum(item1, item2) {
 };
 
 function minus(item1, item2) {
-    return item1 - item2
+    return item1 - item2;
 };
 
 function multiple(item1, item2) {
